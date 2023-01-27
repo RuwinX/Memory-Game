@@ -111,7 +111,7 @@ class memoryGame():
         for playerName in self.playerList:
             print(playerName,"  :  ",self.scoreBoard.get(playerName,"\n"))
         restartGame=str(input("\n do you want to restart the game? Y/N?"))
-        if(restartGame=='Y'or 'y' or 'yes'):
+        if((restartGame == 'Y') or (restartGame =='y') or (restartGame == 'yes')):
             obj2 = memoryGame()
             obj2.gameStart()
         else:
