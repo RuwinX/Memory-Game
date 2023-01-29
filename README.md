@@ -1,7 +1,7 @@
 # Memory-Game
-A simple memory game implementation in Python.
+A simple memory game implementation in Python. There are two versions. A text version as well as a GUI version using pygame
 
-Rules implemented:
+Rules implemented for text version:
 
 1. It is a multi-player game
 2. Players determine the size of the game board. The maximum size is 9 rows and 9 columns.
@@ -16,3 +16,11 @@ Rules implemented:
 11. If a player picks a cell outside the game board; or a cell that is visible; or the unused cell, he loses the turn.
 12. When all the cells are opened, the game is over.
 13. Shows the score of players and the winner (or winners when the game) is over.
+
+
+
+Rules implemented for GUI version:
+
+1. Board Size is fixed as a 6 x 6 grid
+2. Single player only.
+3. Game ends when all the matches are found.
