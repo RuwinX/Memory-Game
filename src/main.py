@@ -223,8 +223,8 @@ def gameOver():
         pygame.Surface.fill(screen, (0, 0, 0))
         opacity = i
         # time.sleep(0.1)
-        font = pygame.font.Font('freesansbold.ttf', 32)
-        textX = 350
+        font = pygame.font.Font("../src/assets/font/doublepixel7.ttf", 128)
+        textX = 200
         textY = 450
         gameOver_text = font.render("GAME OVER.", True, (255, 255, 255))
         gameOver_text.set_alpha(opacity)
@@ -256,7 +256,7 @@ running = True
 pairListGenerator()
 populateMatrix()
 letterMapper()
-# print(value_matrix)
+#print(value_matrix)
 muteButtonRect = pygame.Rect((20, 30), (128, 128))
 while running:
     for event in pygame.event.get():
